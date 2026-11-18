@@ -1,0 +1,11 @@
+@CoursesMangoDB_HostAddress = http://localhost:5239
+
+GET {{CoursesMangoDB_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{CoursesMangoDB_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
