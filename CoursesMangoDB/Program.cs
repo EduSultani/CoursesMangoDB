@@ -39,7 +39,7 @@ namespace CoursesMangoDB
             //create
             app.MapPost("/api/course", async(Courses course, MongoCrud mongoDb) =>
             {
-                var record = await mongoDb.AddCourse("Courses" ,course);
+                var record = await mongoDb.AddCourse("Manager" ,course);
                 return Results.Ok(record);
             });
 
